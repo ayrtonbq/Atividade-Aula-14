@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS Aula14;
+
+USE Aula14;
+
+CREATE TABLE IF NOT EXISTS livros (
+    id INT PRIMARY KEY,
+    titulo VARCHAR(100),
+    autor VARCHAR(100)
+);
